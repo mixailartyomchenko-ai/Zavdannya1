@@ -1,0 +1,29 @@
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto 20px;
+}
+
+button:hover {
+    background: #005fa3;
+    color: #ca0793;
+}
